@@ -16,20 +16,44 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    adminaddnewfood.cpp \
+    adminchangefoodprice.cpp \
+    admindeletefood.cpp \
     admineditCity.cpp \
     adminhomepage.cpp \
     main.cpp \
-    homepage.cpp
+    homepage.cpp \
+    useradduser.cpp \
+    userhomepage.cpp \
+    userpurchasefood.cpp \
+    usershowcitiesanddistancestoberlin.cpp \
+    usertripstartingcities.cpp
 
 HEADERS += \
+    adminaddnewfood.h \
+    adminchangefoodprice.h \
+    admindeletefood.h \
     admineditCity.h \
     adminhomepage.h \
-    homepage.h
+    homepage.h \
+    useradduser.h \
+    userhomepage.h \
+    userpurchasefood.h \
+    usershowcitiesanddistancestoberlin.h \
+    usertripstartingcities.h
 
 FORMS += \
+    adminaddnewfood.ui \
+    adminchangefoodprice.ui \
+    admindeletefood.ui \
     admineditCity.ui \
     adminhomepage.ui \
-    homepage.ui
+    homepage.ui \
+    useradduser.ui \
+    userhomepage.ui \
+    userpurchasefood.ui \
+    usershowcitiesanddistancestoberlin.ui \
+    usertripstartingcities.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
